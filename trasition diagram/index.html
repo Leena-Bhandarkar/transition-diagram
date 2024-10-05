@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Transition Diagram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="state" id="browsing">
+            <h2>Browsing Products</h2>
+        </div>
+        <div class="arrow">→</div>
+
+        <div class="state" id="item-selected">
+            <h2>Item Selected</h2>
+        </div>
+        <div class="arrow">↓</div>
+
+        <div class="state" id="item-added">
+            <h2>Item Added to Cart</h2>
+        </div>
+        <div class="arrow">↓</div>
+
+        <div class="state" id="viewing-cart">
+            <h2>Viewing Cart</h2>
+        </div>
+        <div class="arrow">↓</div>
+
+        <div class="state" id="checkout-initiated">
+            <h2>Checkout Initiated</h2>
+        </div>
+        <div class="arrow">↓</div>
+
+        <div class="state" id="payment-processed">
+            <h2>Payment Processed</h2>
+        </div>
+        <div class="arrow">↓</div>
+
+        <div class="state" id="order-confirmed">
+            <h2>Order Confirmed</h2>
+        </div>
+    </div>
+</body>
+</html>
